@@ -1,0 +1,14 @@
+.nav-links a {
+    color: #fff;
+    padding: 1rem;
+    margin: 2rem;
+}
+.nav-links a:hover, .nav-links .active {
+    border-bottom: 2px solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-links a {
+        margin: 10px;
+    }
+}
