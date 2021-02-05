@@ -39,3 +39,10 @@
 .card-container .p-card-content {
   padding: 0;
 }
+
+
+@media screen and (max-width: 767px) {
+  .card-container .p-card {
+    width: 100%;
+  }
+}
